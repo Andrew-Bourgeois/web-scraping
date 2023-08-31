@@ -1,10 +1,10 @@
- ### Instructions for creating the PATH for getting chromedriver to work
+ # Instructions for creating the PATH for getting chromedriver to work
 
-# Example executable path for MAC
-executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
+## Example executable path and browser variables for MAC
+executable_path = {'executable_path': '/usr/local/bin/chromedriver'}\
 browser = Browser('chrome', **executable_path)
 
-# Windows Download and Path Instructions
+## Windows Download and Path Instructions
 1. Download ChromeDriver:
 2. You can download the appropriate version of ChromeDriver from here. Make sure that the version of ChromeDriver you download corresponds to the version of Chrome installed on your machine.
 3. Place ChromeDriver in a Recognized Location:
@@ -27,9 +27,8 @@ Now, when you run your code, it should be able to find ChromeDriver and you shou
     Current Releases
     If you are using Chrome version 115 or newer, please consult the Chrome for Testing availability dashboard. This page provides convenient JSON endpoints for specific ChromeDriver version downloading.
 
-# Example executable path for Windows
-* executable_path = {'executable_path': 'J:\\UNC Bootcamp\\Chrome Driver\\chromedriver-win64\\chromedriver.exe'}
+## Example executable path for Windows
+* executable_path = {'executable_path': 'J:\\UNC Bootcamp\\Chrome Driver\\chromedriver-win64\\chromedriver.exe'}\
 browser = Browser('chrome', **executable_path)
-* REMINDER: in windows you may have to use the \\ in place of your \ in your executable_path.
-
+* REMINDER: with Windows you may have to use the \\ in place of your \ in your executable_path.
 
